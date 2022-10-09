@@ -45,7 +45,6 @@ class Solution:
                 que.append((node.right,ht+1))
             lvl_node(node,ht)
             
-        print(lvl_nodes)
-        print(self.mx)
+
         return sum(lvl_nodes[self.mx])
         
